@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02538D590E2260ED8BD5FBCCA6B58177 /* HSHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D6159F5576BBA6D6B565D50D19FC8C /* HSHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		060E9F5D6C00FC99B8F965B5DBB78E69 /* HSKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = C413A1E2FD10CC34C54048285078B784 /* HSKeyBoardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C901FDF4E112C97F4AF263ADCE75728 /* HSBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81AB636EE10554D68EF0CDC61F737D1E /* HSBundle.bundle */; };
+		25276EDA5FF5E5B4E72DAB9A1F5AADD1 /* HSInputCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D971DB0A7DB8A4CEA50C388A42F46 /* HSInputCollectionViewCell.m */; };
+		46D4D00A92961A9B5ABD5B2A850BA349 /* Marco.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CBB5D23D908A0ABB2ABA374F32E40E /* Marco.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		494E6FE0C70904A3B7DC3835F52B86CE /* VehicleKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0ABF130D68C8B44EAFC74C6793488E /* VehicleKeyboard-dummy.m */; };
+		51B3D54001ADF445268981E9E774F5FB /* Pods-VehicleKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E0E89E1A28CE895F407413D957ACBD /* Pods-VehicleKeyboard_Example-dummy.m */; };
+		534F18A847E91043E09A7F6EC70D6A9A /* UITextField+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C695FCB5F007B9A239D9A53E14AE37 /* UITextField+Extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5DEEB791675A6E3CB215E5610F73E97A /* Pods-VehicleKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA9D3B662AA17B3FF6E0C1BDA04DDC0 /* Pods-VehicleKeyboard_Tests-dummy.m */; };
+		5FC6B3371B1AB3E62B27B4C559A667FA /* HSHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 63131B441E8E467C8014A8864473B99D /* HSHandler.m */; };
+		66FB1BFF338B9C337F8DA3B36922C1CC /* HSKeyBoardCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B0306BBCD2C78F816A5554312F1EC10A /* HSKeyBoardCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81C76487351D17D3249F307BE74D5403 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C89DF5B19167839ABD2BB15F7C72C1 /* UITextField+Extension.m */; };
+		835720401797877E0B44C0EF7334B8D6 /* KeyboardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8B83CA2C2340E17FF128D2115E4E0 /* KeyboardLayout.m */; };
+		88ADFB656F4E2414B48B89ED76CFB8EB /* KeyboardLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A0FBC9551A46AA153FE33BAF52BD3F /* KeyboardLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9CFA05E12FF68094821E925CEFA32064 /* HSPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF08968023B178965643EA4696231D /* HSPromptView.m */; };
+		B97CE8A6CB231C79B833534DE83096B7 /* Key.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C61899927503E0E2936ABAAB5421DC6 /* Key.m */; };
+		BAC248D31213671E30140265426B8C6C /* HSPromptView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4589974683190DCB4F9954398D73F95 /* HSPromptView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1883CF2DB8011F441E9FE5676004394 /* UIView+HSCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F83CE2462DC87C22DC9237B0B75F73A /* UIView+HSCorners.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D54F2DDC8D8D9AE3FBADF53F2A530D02 /* HSKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B3CA4671C49C46C904E9257D108C /* HSKeyBoardView.m */; };
+		E12BFEFFDDD250FE0E79966112E80DB1 /* Key.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA792DA741F00EA7FAE8D3905132BB0 /* Key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E162FB6BA9CF1E7644DFCCB8546A8BCD /* HSKeyBoardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22020CC45CECEE48A8E8584432D025A1 /* HSKeyBoardCollectionViewCell.m */; };
+		E99461093EA3FCBAD589FBA235E98E0A /* HSInputCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CF17AC24814670B23F8CF627829B07 /* HSInputCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9CCDF13871BD3CFB4D70D5569C27AFE /* UIView+HSCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 947846A3EF4A58FFE83C24DFF76E976D /* UIView+HSCorners.m */; };
+		EC060433E4CEC0E01F015F76292BF608 /* KeyboardEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFD120AAE4A37885A9A4395AA186E4 /* KeyboardEngine.m */; };
+		F38DE32211893676F6F0D942D1B37A24 /* KeyboardEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 376CD51EE7A6A3FFF10EA2173C23EDEB /* KeyboardEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B08FF092C81E673D81225DC914F0903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403DDCF967AE831C4A5C75A991FC24C1;
+			remoteInfo = "VehicleKeyboard-VehicleKeyboard";
+		};
+		1C2BD52FA4EF3787E4B30F3A66C300EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7600D34BDD318648FE3A271454DD02B8;
+			remoteInfo = "Pods-VehicleKeyboard_Example";
+		};
+		666EE6C65406A14D03A8E30A56B42327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4321957777CB86E62A5FAD5E424A97BE;
+			remoteInfo = VehicleKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00722046CDA150AFC26C6238EC9F4770 /* VehicleKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VehicleKeyboard.bundle; path = "VehicleKeyboard-VehicleKeyboard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DEFD120AAE4A37885A9A4395AA186E4 /* KeyboardEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeyboardEngine.m; path = VehicleKeyboard/Classes/KeyboardEngine.m; sourceTree = "<group>"; };
+		11E0E89E1A28CE895F407413D957ACBD /* Pods-VehicleKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VehicleKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
+		1A05B83F4E140C72356B0D3CEDF5D0A3 /* ResourceBundle-VehicleKeyboard-VehicleKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VehicleKeyboard-VehicleKeyboard-Info.plist"; sourceTree = "<group>"; };
+		22020CC45CECEE48A8E8584432D025A1 /* HSKeyBoardCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSKeyBoardCollectionViewCell.m; path = VehicleKeyboard/Classes/HSKeyBoardCollectionViewCell.m; sourceTree = "<group>"; };
+		220EFFF48DBABED0070D31F3593EE24E /* VehicleKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VehicleKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		243576118D9F937A240C5572953A5A5A /* Pods-VehicleKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VehicleKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25AA3AF88B9021521919C127456BF2B0 /* Pods-VehicleKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VehicleKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28DF08968023B178965643EA4696231D /* HSPromptView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSPromptView.m; path = VehicleKeyboard/Classes/HSPromptView.m; sourceTree = "<group>"; };
+		35C695FCB5F007B9A239D9A53E14AE37 /* UITextField+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Extension.h"; path = "VehicleKeyboard/Classes/UITextField+Extension.h"; sourceTree = "<group>"; };
+		3733BFD30FA54763E68CE99DA2C168D9 /* Pods-VehicleKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VehicleKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		376CD51EE7A6A3FFF10EA2173C23EDEB /* KeyboardEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyboardEngine.h; path = VehicleKeyboard/Classes/KeyboardEngine.h; sourceTree = "<group>"; };
+		3BD8B83CA2C2340E17FF128D2115E4E0 /* KeyboardLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeyboardLayout.m; path = VehicleKeyboard/Classes/KeyboardLayout.m; sourceTree = "<group>"; };
+		3EA9D3B662AA17B3FF6E0C1BDA04DDC0 /* Pods-VehicleKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VehicleKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		3EC7AB5B9551F7FEA236FEE549E6B679 /* libPods-VehicleKeyboard_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VehicleKeyboard_Example.a"; path = "libPods-VehicleKeyboard_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1D971DB0A7DB8A4CEA50C388A42F46 /* HSInputCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSInputCollectionViewCell.m; path = VehicleKeyboard/Classes/HSInputCollectionViewCell.m; sourceTree = "<group>"; };
+		4F83CE2462DC87C22DC9237B0B75F73A /* UIView+HSCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HSCorners.h"; path = "VehicleKeyboard/Classes/UIView+HSCorners.h"; sourceTree = "<group>"; };
+		5B4A027E1E73145CF0522A5F0541C904 /* VehicleKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VehicleKeyboard.debug.xcconfig; sourceTree = "<group>"; };
+		5B4F2B62F213FDC2CFA116A7F095542B /* VehicleKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VehicleKeyboard.release.xcconfig; sourceTree = "<group>"; };
+		62CDF32AA368B64FBFA4DA660469DA38 /* libVehicleKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVehicleKeyboard.a; path = libVehicleKeyboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63131B441E8E467C8014A8864473B99D /* HSHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSHandler.m; path = VehicleKeyboard/Classes/HSHandler.m; sourceTree = "<group>"; };
+		6393B3CA4671C49C46C904E9257D108C /* HSKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSKeyBoardView.m; path = VehicleKeyboard/Classes/HSKeyBoardView.m; sourceTree = "<group>"; };
+		6C61899927503E0E2936ABAAB5421DC6 /* Key.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Key.m; path = VehicleKeyboard/Classes/Key.m; sourceTree = "<group>"; };
+		75D6159F5576BBA6D6B565D50D19FC8C /* HSHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSHandler.h; path = VehicleKeyboard/Classes/HSHandler.h; sourceTree = "<group>"; };
+		78A4B58BB13295C044247050604F472F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7A3719CEA811E0EE38E6B552B41C3125 /* libPods-VehicleKeyboard_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VehicleKeyboard_Tests.a"; path = "libPods-VehicleKeyboard_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB636EE10554D68EF0CDC61F737D1E /* HSBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HSBundle.bundle; path = VehicleKeyboard/Assets/HSBundle.bundle; sourceTree = "<group>"; };
+		8D1CEC6CF42BBEE9A77C9E83B6B7BF4D /* VehicleKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VehicleKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		947846A3EF4A58FFE83C24DFF76E976D /* UIView+HSCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HSCorners.m"; path = "VehicleKeyboard/Classes/UIView+HSCorners.m"; sourceTree = "<group>"; };
+		96CBB5D23D908A0ABB2ABA374F32E40E /* Marco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Marco.h; path = VehicleKeyboard/Classes/Marco.h; sourceTree = "<group>"; };
+		9A0ABF130D68C8B44EAFC74C6793488E /* VehicleKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VehicleKeyboard-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEF8F94BB42FBFAC927D547036BC7E93 /* Pods-VehicleKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VehicleKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B0306BBCD2C78F816A5554312F1EC10A /* HSKeyBoardCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSKeyBoardCollectionViewCell.h; path = VehicleKeyboard/Classes/HSKeyBoardCollectionViewCell.h; sourceTree = "<group>"; };
+		B56596FFBB48522F061777C51BCAFD33 /* Pods-VehicleKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VehicleKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B91D1EEC38DC377112BFEDC7C1457EAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BCE3F9F8F0AE570E5FDC89DA322CB177 /* Pods-VehicleKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VehicleKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C170B08F49CF4B1C875B38CB02307303 /* Pods-VehicleKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VehicleKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C413A1E2FD10CC34C54048285078B784 /* HSKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSKeyBoardView.h; path = VehicleKeyboard/Classes/HSKeyBoardView.h; sourceTree = "<group>"; };
+		D4589974683190DCB4F9954398D73F95 /* HSPromptView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSPromptView.h; path = VehicleKeyboard/Classes/HSPromptView.h; sourceTree = "<group>"; };
+		D5C89DF5B19167839ABD2BB15F7C72C1 /* UITextField+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Extension.m"; path = "VehicleKeyboard/Classes/UITextField+Extension.m"; sourceTree = "<group>"; };
+		D8CF17AC24814670B23F8CF627829B07 /* HSInputCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSInputCollectionViewCell.h; path = VehicleKeyboard/Classes/HSInputCollectionViewCell.h; sourceTree = "<group>"; };
+		EABA2BC77FA782F12680CCB1F360439C /* Pods-VehicleKeyboard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VehicleKeyboard_Example-resources.sh"; sourceTree = "<group>"; };
+		F2A0FBC9551A46AA153FE33BAF52BD3F /* KeyboardLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyboardLayout.h; path = VehicleKeyboard/Classes/KeyboardLayout.h; sourceTree = "<group>"; };
+		F367A4B3393CEA1F90661A28515F2F05 /* Pods-VehicleKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VehicleKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBA792DA741F00EA7FAE8D3905132BB0 /* Key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Key.h; path = VehicleKeyboard/Classes/Key.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063D05EEFA09B1072AB3BA78B57BB0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E7FCEE640DCAB63B211552566B357C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E5C0263679532E53504F7C45F64437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B575795848934E9DC5D4B70CB542AD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B778453A11C321854A6323BC3A824F6 /* Pods-VehicleKeyboard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F367A4B3393CEA1F90661A28515F2F05 /* Pods-VehicleKeyboard_Tests-acknowledgements.markdown */,
+				B56596FFBB48522F061777C51BCAFD33 /* Pods-VehicleKeyboard_Tests-acknowledgements.plist */,
+				3EA9D3B662AA17B3FF6E0C1BDA04DDC0 /* Pods-VehicleKeyboard_Tests-dummy.m */,
+				243576118D9F937A240C5572953A5A5A /* Pods-VehicleKeyboard_Tests.debug.xcconfig */,
+				C170B08F49CF4B1C875B38CB02307303 /* Pods-VehicleKeyboard_Tests.release.xcconfig */,
+			);
+			name = "Pods-VehicleKeyboard_Tests";
+			path = "Target Support Files/Pods-VehicleKeyboard_Tests";
+			sourceTree = "<group>";
+		};
+		0D2EB591709A7430CDC0CA16A0FED6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7AB5B9551F7FEA236FEE549E6B679 /* libPods-VehicleKeyboard_Example.a */,
+				7A3719CEA811E0EE38E6B552B41C3125 /* libPods-VehicleKeyboard_Tests.a */,
+				62CDF32AA368B64FBFA4DA660469DA38 /* libVehicleKeyboard.a */,
+				00722046CDA150AFC26C6238EC9F4770 /* VehicleKeyboard.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64E694440829092A0FDC84EB99BC1FE6 /* Pods-VehicleKeyboard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				25AA3AF88B9021521919C127456BF2B0 /* Pods-VehicleKeyboard_Example-acknowledgements.markdown */,
+				3733BFD30FA54763E68CE99DA2C168D9 /* Pods-VehicleKeyboard_Example-acknowledgements.plist */,
+				11E0E89E1A28CE895F407413D957ACBD /* Pods-VehicleKeyboard_Example-dummy.m */,
+				EABA2BC77FA782F12680CCB1F360439C /* Pods-VehicleKeyboard_Example-resources.sh */,
+				BCE3F9F8F0AE570E5FDC89DA322CB177 /* Pods-VehicleKeyboard_Example.debug.xcconfig */,
+				AEF8F94BB42FBFAC927D547036BC7E93 /* Pods-VehicleKeyboard_Example.release.xcconfig */,
+			);
+			name = "Pods-VehicleKeyboard_Example";
+			path = "Target Support Files/Pods-VehicleKeyboard_Example";
+			sourceTree = "<group>";
+		};
+		6DDAF1D0C881E6FB17FDD0C190CB11AD /* VehicleKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				81AB636EE10554D68EF0CDC61F737D1E /* HSBundle.bundle */,
+				75D6159F5576BBA6D6B565D50D19FC8C /* HSHandler.h */,
+				63131B441E8E467C8014A8864473B99D /* HSHandler.m */,
+				D8CF17AC24814670B23F8CF627829B07 /* HSInputCollectionViewCell.h */,
+				4B1D971DB0A7DB8A4CEA50C388A42F46 /* HSInputCollectionViewCell.m */,
+				B0306BBCD2C78F816A5554312F1EC10A /* HSKeyBoardCollectionViewCell.h */,
+				22020CC45CECEE48A8E8584432D025A1 /* HSKeyBoardCollectionViewCell.m */,
+				C413A1E2FD10CC34C54048285078B784 /* HSKeyBoardView.h */,
+				6393B3CA4671C49C46C904E9257D108C /* HSKeyBoardView.m */,
+				D4589974683190DCB4F9954398D73F95 /* HSPromptView.h */,
+				28DF08968023B178965643EA4696231D /* HSPromptView.m */,
+				FBA792DA741F00EA7FAE8D3905132BB0 /* Key.h */,
+				6C61899927503E0E2936ABAAB5421DC6 /* Key.m */,
+				376CD51EE7A6A3FFF10EA2173C23EDEB /* KeyboardEngine.h */,
+				0DEFD120AAE4A37885A9A4395AA186E4 /* KeyboardEngine.m */,
+				F2A0FBC9551A46AA153FE33BAF52BD3F /* KeyboardLayout.h */,
+				3BD8B83CA2C2340E17FF128D2115E4E0 /* KeyboardLayout.m */,
+				96CBB5D23D908A0ABB2ABA374F32E40E /* Marco.h */,
+				35C695FCB5F007B9A239D9A53E14AE37 /* UITextField+Extension.h */,
+				D5C89DF5B19167839ABD2BB15F7C72C1 /* UITextField+Extension.m */,
+				4F83CE2462DC87C22DC9237B0B75F73A /* UIView+HSCorners.h */,
+				947846A3EF4A58FFE83C24DFF76E976D /* UIView+HSCorners.m */,
+				E45F7A306C7458E8FDE6271AF2382CF1 /* Pod */,
+				C9B6519362E7C07D98ABFE8D37BBC437 /* Support Files */,
+			);
+			name = VehicleKeyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BA141A1C66C731072915C00EB9C3179E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E694440829092A0FDC84EB99BC1FE6 /* Pods-VehicleKeyboard_Example */,
+				0B778453A11C321854A6323BC3A824F6 /* Pods-VehicleKeyboard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C91D583A20D1DF695533568B76F87933 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DDAF1D0C881E6FB17FDD0C190CB11AD /* VehicleKeyboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C9B6519362E7C07D98ABFE8D37BBC437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A05B83F4E140C72356B0D3CEDF5D0A3 /* ResourceBundle-VehicleKeyboard-VehicleKeyboard-Info.plist */,
+				9A0ABF130D68C8B44EAFC74C6793488E /* VehicleKeyboard-dummy.m */,
+				8D1CEC6CF42BBEE9A77C9E83B6B7BF4D /* VehicleKeyboard-prefix.pch */,
+				5B4A027E1E73145CF0522A5F0541C904 /* VehicleKeyboard.debug.xcconfig */,
+				5B4F2B62F213FDC2CFA116A7F095542B /* VehicleKeyboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VehicleKeyboard";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C91D583A20D1DF695533568B76F87933 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0D2EB591709A7430CDC0CA16A0FED6D9 /* Products */,
+				BA141A1C66C731072915C00EB9C3179E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45F7A306C7458E8FDE6271AF2382CF1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				78A4B58BB13295C044247050604F472F /* LICENSE */,
+				B91D1EEC38DC377112BFEDC7C1457EAA /* README.md */,
+				220EFFF48DBABED0070D31F3593EE24E /* VehicleKeyboard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AE65B89ED11C2FCDC52AB970332718E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5D421B536121CEDC3DBC6A72235801 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCCECCBE7C5515DA0C10230B029D002 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02538D590E2260ED8BD5FBCCA6B58177 /* HSHandler.h in Headers */,
+				E99461093EA3FCBAD589FBA235E98E0A /* HSInputCollectionViewCell.h in Headers */,
+				66FB1BFF338B9C337F8DA3B36922C1CC /* HSKeyBoardCollectionViewCell.h in Headers */,
+				060E9F5D6C00FC99B8F965B5DBB78E69 /* HSKeyBoardView.h in Headers */,
+				BAC248D31213671E30140265426B8C6C /* HSPromptView.h in Headers */,
+				E12BFEFFDDD250FE0E79966112E80DB1 /* Key.h in Headers */,
+				F38DE32211893676F6F0D942D1B37A24 /* KeyboardEngine.h in Headers */,
+				88ADFB656F4E2414B48B89ED76CFB8EB /* KeyboardLayout.h in Headers */,
+				46D4D00A92961A9B5ABD5B2A850BA349 /* Marco.h in Headers */,
+				534F18A847E91043E09A7F6EC70D6A9A /* UITextField+Extension.h in Headers */,
+				C1883CF2DB8011F441E9FE5676004394 /* UIView+HSCorners.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B9B7371CD114390DA148BA847F1810D /* Pods-VehicleKeyboard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E2DEB16F24A642C605466EA1DFFAD1 /* Build configuration list for PBXNativeTarget "Pods-VehicleKeyboard_Tests" */;
+			buildPhases = (
+				4C5D421B536121CEDC3DBC6A72235801 /* Headers */,
+				68276736C788C6527FDEEC2C5B384180 /* Sources */,
+				063D05EEFA09B1072AB3BA78B57BB0EF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6325A8899F339AD8E498777F7EFAB4CC /* PBXTargetDependency */,
+			);
+			name = "Pods-VehicleKeyboard_Tests";
+			productName = "Pods-VehicleKeyboard_Tests";
+			productReference = 7A3719CEA811E0EE38E6B552B41C3125 /* libPods-VehicleKeyboard_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		403DDCF967AE831C4A5C75A991FC24C1 /* VehicleKeyboard-VehicleKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3F9E1129DBFD8BB1C9064F7D23A36E /* Build configuration list for PBXNativeTarget "VehicleKeyboard-VehicleKeyboard" */;
+			buildPhases = (
+				D0235AB4FA88B03DE8AD9C18EC66E597 /* Sources */,
+				07E7FCEE640DCAB63B211552566B357C /* Frameworks */,
+				17DD376743DA9964DEB4F3A997244C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VehicleKeyboard-VehicleKeyboard";
+			productName = "VehicleKeyboard-VehicleKeyboard";
+			productReference = 00722046CDA150AFC26C6238EC9F4770 /* VehicleKeyboard.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4321957777CB86E62A5FAD5E424A97BE /* VehicleKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97BB4B3AF2F412FCCCBCDC7174272912 /* Build configuration list for PBXNativeTarget "VehicleKeyboard" */;
+			buildPhases = (
+				9FCCECCBE7C5515DA0C10230B029D002 /* Headers */,
+				728E5399597EF470B47D55A37C1122BF /* Sources */,
+				83E5C0263679532E53504F7C45F64437 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54E0BD56E56C7D5D1AB418D694A99891 /* PBXTargetDependency */,
+			);
+			name = VehicleKeyboard;
+			productName = VehicleKeyboard;
+			productReference = 62CDF32AA368B64FBFA4DA660469DA38 /* libVehicleKeyboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7600D34BDD318648FE3A271454DD02B8 /* Pods-VehicleKeyboard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231AD61E3B432E46D77F3C6662032635 /* Build configuration list for PBXNativeTarget "Pods-VehicleKeyboard_Example" */;
+			buildPhases = (
+				1AE65B89ED11C2FCDC52AB970332718E /* Headers */,
+				39F9097F304F0CABE20BC9722D805620 /* Sources */,
+				B575795848934E9DC5D4B70CB542AD07 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4EF57D7448F6043026A7E58014108D /* PBXTargetDependency */,
+			);
+			name = "Pods-VehicleKeyboard_Example";
+			productName = "Pods-VehicleKeyboard_Example";
+			productReference = 3EC7AB5B9551F7FEA236FEE549E6B679 /* libPods-VehicleKeyboard_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0D2EB591709A7430CDC0CA16A0FED6D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7600D34BDD318648FE3A271454DD02B8 /* Pods-VehicleKeyboard_Example */,
+				0B9B7371CD114390DA148BA847F1810D /* Pods-VehicleKeyboard_Tests */,
+				4321957777CB86E62A5FAD5E424A97BE /* VehicleKeyboard */,
+				403DDCF967AE831C4A5C75A991FC24C1 /* VehicleKeyboard-VehicleKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17DD376743DA9964DEB4F3A997244C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C901FDF4E112C97F4AF263ADCE75728 /* HSBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F9097F304F0CABE20BC9722D805620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B3D54001ADF445268981E9E774F5FB /* Pods-VehicleKeyboard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68276736C788C6527FDEEC2C5B384180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEEB791675A6E3CB215E5610F73E97A /* Pods-VehicleKeyboard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728E5399597EF470B47D55A37C1122BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC6B3371B1AB3E62B27B4C559A667FA /* HSHandler.m in Sources */,
+				25276EDA5FF5E5B4E72DAB9A1F5AADD1 /* HSInputCollectionViewCell.m in Sources */,
+				E162FB6BA9CF1E7644DFCCB8546A8BCD /* HSKeyBoardCollectionViewCell.m in Sources */,
+				D54F2DDC8D8D9AE3FBADF53F2A530D02 /* HSKeyBoardView.m in Sources */,
+				9CFA05E12FF68094821E925CEFA32064 /* HSPromptView.m in Sources */,
+				B97CE8A6CB231C79B833534DE83096B7 /* Key.m in Sources */,
+				EC060433E4CEC0E01F015F76292BF608 /* KeyboardEngine.m in Sources */,
+				835720401797877E0B44C0EF7334B8D6 /* KeyboardLayout.m in Sources */,
+				81C76487351D17D3249F307BE74D5403 /* UITextField+Extension.m in Sources */,
+				E9CCDF13871BD3CFB4D70D5569C27AFE /* UIView+HSCorners.m in Sources */,
+				494E6FE0C70904A3B7DC3835F52B86CE /* VehicleKeyboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0235AB4FA88B03DE8AD9C18EC66E597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4EF57D7448F6043026A7E58014108D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VehicleKeyboard;
+			target = 4321957777CB86E62A5FAD5E424A97BE /* VehicleKeyboard */;
+			targetProxy = 666EE6C65406A14D03A8E30A56B42327 /* PBXContainerItemProxy */;
+		};
+		54E0BD56E56C7D5D1AB418D694A99891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VehicleKeyboard-VehicleKeyboard";
+			target = 403DDCF967AE831C4A5C75A991FC24C1 /* VehicleKeyboard-VehicleKeyboard */;
+			targetProxy = 0B08FF092C81E673D81225DC914F0903 /* PBXContainerItemProxy */;
+		};
+		6325A8899F339AD8E498777F7EFAB4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VehicleKeyboard_Example";
+			target = 7600D34BDD318648FE3A271454DD02B8 /* Pods-VehicleKeyboard_Example */;
+			targetProxy = 1C2BD52FA4EF3787E4B30F3A66C300EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37695DDC14BCCC4C78D6BDFB7C9D06CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4F2B62F213FDC2CFA116A7F095542B /* VehicleKeyboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VehicleKeyboard/VehicleKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VehicleKeyboard;
+				PRODUCT_NAME = VehicleKeyboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1DC85ACB0BA8600A9F6B4C52463C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF8F94BB42FBFAC927D547036BC7E93 /* Pods-VehicleKeyboard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55CDC7697747B6875F11FBB220A0ECD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4F2B62F213FDC2CFA116A7F095542B /* VehicleKeyboard.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VehicleKeyboard";
+				IBSC_MODULE = VehicleKeyboard;
+				INFOPLIST_FILE = "Target Support Files/VehicleKeyboard/ResourceBundle-VehicleKeyboard-VehicleKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = VehicleKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7749BC69214914E4F920AB3201A0707B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE3F9F8F0AE570E5FDC89DA322CB177 /* Pods-VehicleKeyboard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D067258450EF2A38F505A38F2DA12C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243576118D9F937A240C5572953A5A5A /* Pods-VehicleKeyboard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E24E9CF4AC6ECAA50B8692182F08570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4A027E1E73145CF0522A5F0541C904 /* VehicleKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VehicleKeyboard/VehicleKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VehicleKeyboard;
+				PRODUCT_NAME = VehicleKeyboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AE3D0A557A034336C61869D885FE3D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4A027E1E73145CF0522A5F0541C904 /* VehicleKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VehicleKeyboard";
+				IBSC_MODULE = VehicleKeyboard;
+				INFOPLIST_FILE = "Target Support Files/VehicleKeyboard/ResourceBundle-VehicleKeyboard-VehicleKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = VehicleKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FCFDBE864AD5B5BB3C408CABA5C6DE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C170B08F49CF4B1C875B38CB02307303 /* Pods-VehicleKeyboard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231AD61E3B432E46D77F3C6662032635 /* Build configuration list for PBXNativeTarget "Pods-VehicleKeyboard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7749BC69214914E4F920AB3201A0707B /* Debug */,
+				4C1DC85ACB0BA8600A9F6B4C52463C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3F9E1129DBFD8BB1C9064F7D23A36E /* Build configuration list for PBXNativeTarget "VehicleKeyboard-VehicleKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3D0A557A034336C61869D885FE3D83 /* Debug */,
+				55CDC7697747B6875F11FBB220A0ECD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97BB4B3AF2F412FCCCBCDC7174272912 /* Build configuration list for PBXNativeTarget "VehicleKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E24E9CF4AC6ECAA50B8692182F08570 /* Debug */,
+				37695DDC14BCCC4C78D6BDFB7C9D06CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E2DEB16F24A642C605466EA1DFFAD1 /* Build configuration list for PBXNativeTarget "Pods-VehicleKeyboard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D067258450EF2A38F505A38F2DA12C0 /* Debug */,
+				FCFDBE864AD5B5BB3C408CABA5C6DE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

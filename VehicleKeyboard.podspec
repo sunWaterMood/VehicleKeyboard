@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VehicleKeyboard'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of VehicleKeyboard.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/华生升/VehicleKeyboard'
+  s.homepage         = 'https://github.com/sunWaterMood/VehicleKeyboard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '华生升' => 'huashengsheng@yunniao.me' }
-  s.source           = { :git => 'https://github.com/华生升/VehicleKeyboard.git', :tag => s.version.to_s }
+  s.author           = { '华生升' => '1095143828@qq.com' }
+  s.source           = { :git => 'https://github.com/sunWaterMood/VehicleKeyboard.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'VehicleKeyboard/Classes/**/*'
+  s.source_files = 'VehicleKeyboard/Classes/*'
+  # 资源文件
+   s.resource_bundles = {
+     'VehicleKeyboard' => ['VehicleKeyboard/Assets/*.{bundle}']
+   }
   
   # s.resource_bundles = {
   #   'VehicleKeyboard' => ['VehicleKeyboard/Assets/*.png']

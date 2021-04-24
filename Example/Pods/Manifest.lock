@@ -1,0 +1,16 @@
+PODS:
+  - VehicleKeyboard (0.0.1)
+
+DEPENDENCIES:
+  - VehicleKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  VehicleKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VehicleKeyboard: 6da4a4392d9f60a4f3ece2c95b3277030e824b13
+
+PODFILE CHECKSUM: ab970a07e6223e63f84e594da13f05a2f80aa18b
+
+COCOAPODS: 1.10.1

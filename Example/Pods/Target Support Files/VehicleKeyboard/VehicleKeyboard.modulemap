@@ -1,0 +1,6 @@
+framework module VehicleKeyboard {
+  umbrella header "VehicleKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

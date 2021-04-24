@@ -8,6 +8,9 @@
 
 #import "HSViewController.h"
 
+
+#import <VehicleKeyboard/UITextField+Extension.h>
+
 @interface HSViewController ()
 
 @end
@@ -18,6 +21,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UITextField *text = [[UITextField alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 50)];
+    text.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:text];
+    [text changeToPlatePWKeyBoardInpurView];
+//    [text changePlateInputType:YES];
+    
+    
+//    HSKeyBoardView *keyboardView = [[HSKeyBoardView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 226)];
+//    [self.view addSubview:keyboardView];
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,27 @@
+{
+  "name": "VehicleKeyboard",
+  "version": "0.0.1",
+  "summary": "A short description of VehicleKeyboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/华生升/VehicleKeyboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "华生升": "huashengsheng@yunniao.me"
+  },
+  "source": {
+    "git": "https://github.com/华生升/VehicleKeyboard.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "VehicleKeyboard/Classes/*",
+  "resource_bundles": {
+    "VehicleKeyboard": [
+      "VehicleKeyboard/Assets/*.{bundle}"
+    ]
+  }
+}
