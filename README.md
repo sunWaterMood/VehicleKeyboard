@@ -1,29 +1,54 @@
-# VehicleKeyboard
+# 车牌号码专用键盘 
 
-[![CI Status](https://img.shields.io/travis/华生升/VehicleKeyboard.svg?style=flat)](https://travis-ci.org/华生升/VehicleKeyboard)
-[![Version](https://img.shields.io/cocoapods/v/VehicleKeyboard.svg?style=flat)](https://cocoapods.org/pods/VehicleKeyboard)
-[![License](https://img.shields.io/cocoapods/l/VehicleKeyboard.svg?style=flat)](https://cocoapods.org/pods/VehicleKeyboard)
-[![Platform](https://img.shields.io/cocoapods/p/VehicleKeyboard.svg?style=flat)](https://cocoapods.org/pods/VehicleKeyboard)
+## 概述
 
-## Example
+* 车牌号码专用键盘ios版，支持新能源、武警、领事馆等多项专用格式车牌。
+* 绑定UItextfield输入，键盘与系统键盘用法类似。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## 如何使用
 
-## Requirements
+### 使用cocoaPods导入
 
-## Installation
-
-VehicleKeyboard is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+在podfile中添加
 
 ```ruby
 pod 'VehicleKeyboard'
 ```
 
-## Author
+然后pod install一下
 
-华生升, huashengsheng@yunniao.me
+## OC调用
 
-## License
+oc引用pod中的库
 
-VehicleKeyboard is available under the MIT license. See the LICENSE file for more info.
+```objective-c
+#import <VehicleKeyboard/UITextField+Extension.h>
+```
+
+### 直接作为inputView使用
+
+```objective-c
+[self.myTextField changeToPlatePWKeyBoardInpurView];
+```
+
+直接作为inputView使用时，回调于取值都与系统方法一直，直接当做系统UItextfield使用即可
+
+## 主要类的介绍
+
+> 详细属性介绍请看注释
+
+* HSKeyboardView:核心类，主要实现键盘逻辑与布局;
+* HSHandler:自定义输入框的核心类，主要实现输入框逻辑，若使用者希望更好的调整布局，可继承此类重写layout的代理方法;
+* Engine:键盘逻辑的核心类，实现键位的布局和注册。
+
+
+## 注意
+
+* 直接作为inputView使用时，当输入长度超过车牌规定长度时，会默认更新最后一位输入内容
+
+## 可能的Q&A
+
+* Q:   pod intall的时候失败提示找不到这个库？
+* A:   pod其实是找的本地缓存目录，新上传的库可能出现找不到的情况，删除本地的~/Library/Caches/CocoaPods/search_index.json 缓存目录，用pod repo update master这个命令更新了本地的索引库，再pod install 试试。
+* Q:  我设置了一些ui参数，但是实际显示和设置又些出入?
+* A:   请在设置各种ui参数后再调用setKeyBoardView方法。
