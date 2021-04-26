@@ -5,6 +5,10 @@
 * 车牌号码专用键盘ios版，支持新能源、武警、领事馆等多项专用格式车牌。
 * 绑定UItextfield输入，键盘与系统键盘用法类似。
 
+
+
+<img src="/Users/apple/Library/Application Support/typora-user-images/image-20210426104009749.png" alt="image-20210426104009749" style="zoom:50%;" />
+
 ## 如何使用
 
 ### 使用cocoaPods导入
